@@ -100,7 +100,7 @@ class TestGeneratorGUI:
         main_frame.columnconfigure(0, weight=1)
         
         # API Key girişi
-        ttk.Label(main_frame, text="Gemini API Key:").grid(row=0, column=0, sticky=tk.W, pady=5)
+        ttk.Label(main_frame, text="Mistral API Key:").grid(row=0, column=0, sticky=tk.W, pady=5)
         self.api_key_var = tk.StringVar()
         self.api_key_entry = ttk.Entry(main_frame, textvariable=self.api_key_var, width=50)
         self.api_key_entry.grid(row=1, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=5)
