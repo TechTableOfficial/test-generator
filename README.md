@@ -12,9 +12,9 @@
    - Obtain an API key from Mistal.
 
 3. **Running the Application:**
-   - Run the `test_agent.py` file:
+   - Run the `test_generator.py` file:
      ```sh
-     python test_agent.py
+     python test_generator.py
      ```
    - In the pop-up window, first enter the obtained `api_key`.
    - Then, select the folder containing the code to be tested.
