@@ -9,7 +9,7 @@
      ```
 
 2. **Obtaining an API Key:**
-   - Obtain an API key from Mistal.
+   - Obtain an API key from Mistral. (https://auth.mistral.ai/ui/login)
 
 3. **Running the Application:**
    - Run the `test_generator.py` file:
